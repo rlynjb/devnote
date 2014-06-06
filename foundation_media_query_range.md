@@ -1,7 +1,7 @@
 ## Foundation Built-In and Custom Media Queries and Columns
 This is an outline of Zurb Foundations' Media Query viewport rangaes, but from experience, I find myself creating custom ones since there is always a flaw on designs. So its always good to know that Zurb Foundation do offer custom media queries and custom rows and columns.
 
-My idea to understanding how Foundations' Media Queries worked, I've first layed out a chart of its ranges.
+My idea to understanding how to implement Responsive to an existing website or a new one, I've first layed out a chart of its ranges.
 
 small | medium | large | xlarge | xxlarge
 --- | --- | --- | --- | ---
