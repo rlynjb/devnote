@@ -13,7 +13,7 @@ I solved this issue by creating splits or halves for each ranges.
 
 ### Custom Medium Range
 
-medium 1st half | medium 2nd half
+medium sm (1st half) | medium lg (2nd half)
 --- | ---
 641px < 840px | 841px < 1024px
 
@@ -23,11 +23,21 @@ $medium-range: (40.063em, 64em);
 ```
 So in my foundation override sass file.
 ```
-$medium-1st-half-range: (40.063em, 50.000em);
-$medium-2nd-half-range: (50.063em, 64em);
+$medium-sm-range: (40.063em, 50.000em);
+$medium-lg-range: (50.063em, 64em);
 ```
 * Note: you can still use px when planning the widths, but there is an online tool, pxtoem.com, to convert px to ems. There is a reason why Foundation uses ems instead of px, this plays a big part of Responsive Design.
 
 We can still use Foundations' default medium range, but if there are any detailed styling that needs fixed, the Splits/Halves (atleast thats what I call it) is what I use.
 
 Another useful article for understanding PXs, EMs, REMs. http://j.eremy.net/confused-about-rem-and-em/
+
+### Custom Medium Range Column
+So another issue I came across is creating custom columns for my Splits/Halves. Fortunately, Foundation do have a mixin where we can specify a custom row or custom columns.
+To solve my issue, I've used my Splits/Halves media queries and under that, I've created my custom columns.
+```
+// Columns for Custom Split/Half Ranges
+@media #{$medium-sm-only}
+  .medium-sm-12
+    @include grid-column(12)
+```
