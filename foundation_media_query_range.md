@@ -21,12 +21,18 @@ This pretty much solved my media query issue. In Foundations' default Medium Ran
 ```
 $medium-range: (40.063em, 64em);
 ```
-So in my foundation override sass file.
+So in my foundation override sass file. These are my ranges.
 ```
 $medium-sm-range: (40.063em, 50.000em);
 $medium-lg-range: (50.063em, 64em);
 ```
 * Note: you can still use px when planning the widths, but there is an online tool, pxtoem.com, to convert px to ems. There is a reason why Foundation uses ems instead of px, this plays a big part of Responsive Design.
+
+And for my media queries, it would be like this;
+```
+$medium-sm-only: "(min-width:#{lower-bound($medium-sm-range)}) and (max-width:#{upper-bound($medium-sm-range)})";
+$medium-lg-only: "(min-width:#{lower-bound($medium-lg-range)}) and (max-width:#{upper-bound($medium-lg-range)})";
+```
 
 We can still use Foundations' default medium range, but if there are any detailed styling that needs fixed, the Splits/Halves (atleast thats what I call it) is what I use.
 
