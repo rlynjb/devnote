@@ -27,4 +27,5 @@ $medium-1st-half-range: (40.063em, 50.000em);
 $medium-2nd-half-range: (50.063em, 64em);
 ```
 * Note: you can still use px when planning the widths, but there is an online tool, pxtoem.com, to convert px to ems. There is a reason why Foundation uses ems instead of px, this plays a big part of Responsive Design.
+
 We can still use Foundations' default medium range, but if there are any detailed styling that needs fixed, the Splits/Halves (atleast thats what I call it) is what I use.
