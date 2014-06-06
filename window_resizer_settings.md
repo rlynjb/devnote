@@ -1,5 +1,6 @@
 Download the Chrome App Extension for Window Resizer from link below:
-https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en
+[window_resizer_link]: https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en
+[Google Chrome Window Resizer][window_resizer_link]
 
 Then go to Edit Presets > Sync and Copy & Paste the text below for custom Window range settings.
 I've based this from Zurb Foundation.
