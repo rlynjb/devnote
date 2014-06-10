@@ -1,4 +1,4 @@
-responsive-dev-settings
+devnote
 =======================
 
-This repo contains my settings and chrome apps I used to develop and test Responsive Web Design
+This repo contains learnings and tools I've gathered from becoming a full fledged Front-End Develoepr
