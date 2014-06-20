@@ -20,8 +20,9 @@ set autoindent
 set smartindent
 set smarttab
 
-" use tab as space instead of indent
+" needed for syntax highlighting
 filetype plugin indent on
+syntax enable
 
 " easier split navigation, instead of ctrl-w, just use ctrl-hjkl
 nnoremap <C-J> <C-W><C-J>
@@ -42,7 +43,6 @@ nnoremap <S-l> <C-w>> +10
 
 " enable plugins
 call pathogen#infect()
-syntax enable
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
