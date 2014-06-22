@@ -28,6 +28,8 @@ colorscheme molokai
 syntax on
 filetype plugin indent on
 set nu " set number guide on left
+let g:indentLine_color_term = 239
+"let g:indentLine_char = '┆'
 
 
 " ===========================================
