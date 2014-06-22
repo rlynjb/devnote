@@ -1,9 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/rlynjb/blog'
-let g:netrw_dirhist_2='/Users/rlynjb/blog/_layouts'
-let g:netrw_dirhist_3='/Users/rlynjb/blog/_posts'
-let g:netrw_dirhist_4='/Users/rlynjb'
-let g:netrw_dirhist_5='/Users/rlynjb/blog'
-let g:netrw_dirhist_6='/Users/rlynjb/blog/css'
-let g:netrw_dirhist_7='/Users/rlynjb'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/www/schooner/app/assets'
+let g:netrw_dirhist_2='/www/schooner/app/assets/stylesheets'
