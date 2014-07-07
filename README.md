@@ -18,3 +18,12 @@ ln -s ~/devnote/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode
 5. Remove pygmalion theme
 6. Copy and paste my pygmalion theme
 7. vim up .zshrc file and change zsh theme = russell to pygmalion
+
+### Setting up my VIM theme and configs
+1. Copy ```.vim``` and ```.vim-rc``` unto root directory
+```
+cd ~/devnote/
+cp -R .vim .vim-rc ~/
+```
+2. Now, type ```vim ``` on iTerm
+3. and type ```:E``` for Tree listing of files
