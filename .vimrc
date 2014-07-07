@@ -7,7 +7,6 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 " enable auto indentation
-set autoindent
 set smartindent
 set smarttab
 
@@ -29,7 +28,7 @@ syntax on
 filetype plugin indent on
 set nu " set number guide on left
 let g:indentLine_color_term = 239
-"let g:indentLine_char = '┆'
+let g:indentLine_char = '┆'
 
 
 " ===========================================
