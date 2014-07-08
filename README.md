@@ -35,8 +35,50 @@ cp -R .vim .vim-rc ~/
 // to toggle iTerm terminal
 press Opt/Alt + Space
 
-// open to pane
+// open new pane
 press Cmd + d
+
+// close a pane
+press Cmd + w
+
+// switch panes
+press Cmd + { or }
+
+// open new tab
+press Cmd + t
+
+// close a tab
+press Cmd + w
+
+// switch tabs
+press Shift & Cmd + { or }
+
+// highlight text w/o mouse for a copy and text
+press Cmd + F
+type in the text
+press Tab to move forward
+press Shift + Tab to move backward
+press Cmd + F to close search box
+
+```
+##### Vim keybaord shortcuts
+```
+// to open Tree Listing navigation
+:E
+
+// open a file vertically
+press v
+
+// switch panes
+press Ctrl + h/j/k/l
+
+// resize panes
+press Shift + h/j/k/l
+```
+##### Commandline 
+```
+// to search through files like Sublime-ish style
+grep -rnC2 "text here" directory_here/
 ```
 <hr>
 
