@@ -66,14 +66,20 @@ press Cmd + F to close search box
 // to open Tree Listing navigation
 :E
 
-// open a file vertically
+// open a pane/file vertically
 press v
+
+// close a pane/file
+:q
 
 // switch panes
 press Ctrl + h/j/k/l
 
 // resize panes
 press Shift + h/j/k/l
+
+// search a text in a pane/file
+:/text here
 ```
 ##### Commandline 
 ```
