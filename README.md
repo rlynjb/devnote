@@ -29,7 +29,9 @@ cp -R .vim .vim-rc ~/
 3. and type ```:E``` for Tree listing of files
 
 ![Alt devenvironemnt](devenvironment.png)
+#### Basic Vim and iTerm keys for panes and window tabs
 
+<hr>
 
 ### Setting up a local server with Node.js for Front-End Development
 #### Using NPM for Package Manager
