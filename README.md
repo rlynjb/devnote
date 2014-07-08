@@ -30,7 +30,14 @@ cp -R .vim .vim-rc ~/
 
 ![Alt devenvironemnt](devenvironment.png)
 #### Basic Vim and iTerm keys for panes and window tabs
+##### iTerm keyboard shortcuts
+```
+// to toggle iTerm terminal
+press Opt/Alt + Space
 
+// open to pane
+press Cmd + d
+```
 <hr>
 
 ### Setting up a local server with Node.js for Front-End Development
