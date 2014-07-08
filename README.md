@@ -27,3 +27,8 @@ cp -R .vim .vim-rc ~/
 ```
 2. Now, type ```vim ``` on iTerm
 3. and type ```:E``` for Tree listing of files
+
+### Setting up a local server with Node.js for Front-End Development
+#### Using NPM for Package Manager
+
+#### Using Gulpjs for Task Runner
