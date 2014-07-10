@@ -56,3 +56,21 @@ nnoremap <S-l> <C-w>> +10
 " Enable Plugin
 " -------------------------------------------
 execute pathogen#infect()
+
+
+" disable vim indentation when pasting
+set pastetoggle=<F2>
+
+" Remove trailing whitespace upon save
+function! <SID>StripTrailingWhitespaces()
+    " Preparation: save last search, and cursor position.
+    let _s=@/
+    let l = line(".")
+    let c = col(".")
+    " Do the business:
+    %s/\s\+$//e
+    " Clean up: restore previous search history, and cursor position
+    let @/=_s
+    call cursor(l, c)
+endfunction
+autocmd BufWritePre *.rb,*.rake,*.coffee :call <SID>StripTrailingWhitespaces()
