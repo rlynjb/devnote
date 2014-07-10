@@ -90,5 +90,20 @@ grep -rnC2 "text here" directory_here/
 
 ### Setting up a local server with Node.js for Front-End Development
 #### Using NPM for Package Manager
+1. Install Home Brew first
+2. and then install Node.js using brew
+```
+brew install node
+```
+3. to view installed packages in Brew
+```
+brew list
+```
+4. Use NPM to install Package Managers, Task Runners, Compilers, Preprocessors, etc
+```
+// to install
+sudo npm install -g name_here
 
-#### Using Gulpjs for Task Runner
+// to view package list
+npm list -g --depth=0
+```
