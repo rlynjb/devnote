@@ -44,6 +44,7 @@ let g:indentLine_color_term = 239
 let g:indentLine_char = '┆'
 " vim supports js, just do this to use js syntax highlighting for json
 autocmd BufNewFile,BufRead *.json set ft=javascript
+"autocmd BufNewFile,BufRead *.styl set ft=css
 
 
 " ===========================================
