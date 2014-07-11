@@ -53,6 +53,7 @@ autocmd BufNewFile,BufRead *.styl set ft=css
 " Smoother Navigation on Vim
 " -------------------------------------------
 let g:netrw_liststyle=3 " enable file navigation
+let g:netrw_winsize = 85 " set exact width for file navigation
 " easier split navigation, instead of ctrl-w, just use ctrl-hjkl
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
