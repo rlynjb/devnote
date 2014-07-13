@@ -1,10 +1,10 @@
 tmux new-session -s deven -n editor -d
 
-tmux split-window -h -p 30 -t deven
 tmux split-window -v -t deven:0.1
 tmux split-window -v -p 30 -t deven:0.0
-
-
 tmux send-keys -t deven:0.0 'vim' C-m
+
+tmux new-window -t deven:1
+tmux split-window -v -t deven:1
 
 tmux attach -t deven
