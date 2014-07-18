@@ -85,6 +85,11 @@ press Shift + h/j/k/l
 ```
 // to search through files like Sublime-ish style
 grep -rnC2 "text here" directory_here/
+
+// search and replace
+grep -rl matchstring somedir/ | xargs sed -i 's/string1/string2/g'
+// sample
+grep -rl 'windows' ./ | xargs sed -i 's/windows/linux/g'
 ```
 <hr>
 
