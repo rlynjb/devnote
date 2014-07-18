@@ -1,4 +1,4 @@
-devnote
+dotfiles
 =======================
 
 This repo contains learnings and tools I've gathered from becoming a full fledged Front-End Developer
@@ -11,7 +11,7 @@ This repo contains learnings and tools I've gathered from becoming a full fledge
 ```
 killall cfprefsd     # This will get rid of cached settings
 rm  ~/Library/Preferences/com.googlecode.iterm2.plist
-ln -s ~/devnote/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+ln -s ~/dotfiles/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 ```
 
 4. Now, Install oh-my-zsh
@@ -22,7 +22,7 @@ ln -s ~/devnote/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode
 ### Setting up my VIM theme and configs
 1. Copy ```.vim``` and ```.vim-rc``` unto root directory
 ```
-cd ~/devnote/
+cd ~/dotfiles/
 cp -R .vim .vim-rc ~/
 ```
 2. Now, type ```vim ``` on iTerm
