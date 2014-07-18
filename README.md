@@ -91,6 +91,15 @@ grep -rl matchstring somedir/ | xargs sed -i 's/string1/string2/g'
 // sample
 grep -rl 'windows' ./ | xargs sed -i 's/windows/linux/g'
 ```
+##### Git Tig
+```
+tig // to open git tig
+press Shft + s // to view un/staged files
+press u // to toggle files to be staged or unstaged
+press q // to quit view
+press Shft + c // to commit and write commit msg
+```
+
 <hr>
 
 ### Setting up a local server with Node.js for Front-End Development
