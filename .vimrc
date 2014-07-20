@@ -64,7 +64,6 @@ let g:netrw_liststyle=3 " enable file navigation
 let g:netrw_winsize = 85 " set exact width for file navigation
 let g:netrw_altv=1 " open files to the right
 let g:netrw_preview=1 " open previews vertically
-
 " easier split navigation, instead of ctrl-w, just use ctrl-hjkl
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
@@ -74,10 +73,10 @@ nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
 " easy window resize
-nnoremap <S-h> <C-w>< -10 
-nnoremap <S-j> <C-W>- -10
-nnoremap <S-k> <C-W>+ +10
-nnoremap <S-l> <C-w>> +10
+nnoremap <S-h> <C-w>< -15 
+nnoremap <S-j> <C-W>- -15
+nnoremap <S-k> <C-W>+ +15
+nnoremap <S-l> <C-w>> +15
 
 
 " ===========================================
