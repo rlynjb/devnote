@@ -54,7 +54,7 @@ let g:indentLine_char = '┆'
 autocmd BufNewFile,BufRead *.json set ft=javascript
 " vim supports css, just do this to use css syntax highlighting for stylus
 autocmd BufNewFile,BufRead *.styl set ft=css
-
+autocmd BufNewFile,BufRead *.em set ft=emblem
 
 " ===========================================
 " ===========================================
