@@ -29,58 +29,22 @@ cp -R .vim .vim-rc ~/
 3. and type ```:E``` for Tree listing of files
 
 ![Alt devenvironemnt](devenvironment.png)
-#### Basic Vim and iTerm keys for panes and window tabs
-##### iTerm keyboard shortcuts
-```
-// to toggle iTerm terminal
-press Opt/Alt + Space
+#### Keyboard Keys + Shortcuts
+Tasks | Vim | Tmux | iTerm | Chrome
+--- | --- | --- | --- | ---
+Key-Bind | Ctrl | Alt/Option + A | Cmd | Cmd
+Open new pane | v | d | d | -
+Open new window | - | t | t | t
+Navigate through panes | h,j,k,l | Left, Right | [, ] | -
+Navigate through windows | - | [, ] | Left, Right | Shift + Cmd + [,]
+Scoll in pane | Shift + [, ] | Page Up, Page Down for quick nav. For per line is arrows Up, Down | Shift + Page Up, Page Down | Key Arrows
+Exit of of Scroll pane mode | - | press Enter | - | -
+Close a pane | :q | e | w | -
+Close a window | - | w | w | w
+Resize pane | Shft + hjkl | h, l | -
+Open Dev Tool | - | - | - | Opt + Cmd + i
 
-// open new pane
-press Cmd + d
 
-// close a pane
-press Cmd + w
-
-// switch panes
-press Cmd + { or }
-
-// open new tab
-press Cmd + t
-
-// close a tab
-press Cmd + w
-
-// switch tabs
-press Shift & Cmd + { or }
-
-// highlight text w/o mouse for a copy and text
-press Cmd + F
-type in the text
-press Tab to move forward
-press Shift + Tab to move backward
-press Cmd + F to close search box
-
-```
-##### Vim keybaord shortcuts
-```
-// to open Tree Listing navigation
-:E
-
-// open a pane/file vertically
-press v
-
-// close a pane/file
-:q
-
-// switch panes
-press Ctrl + h/j/k/l
-
-// resize panes
-press Shift + h/j/k/l
-
-// search a text in a pane/file
-:/text here
-```
 ##### Commandline 
 ```
 // to search through files like Sublime-ish style
@@ -122,19 +86,3 @@ sudo npm install -g name_here
 npm list -g --depth=0
 ```
 * I use Yeoman.io to install web scaffoldings, very useful tool to get up and running with creating your web app!
-
-<hr>
-
-Tasks | Vim | Tmux | iTerm | Chrome
---- | --- | --- | --- | ---
-Key-Bind | Ctrl | Alt/Option + A | Cmd | Cmd
-Open new pane | v | d | d | -
-Open new window | - | t | t | t
-Navigate through panes | h,j,k,l | Left, Right | [, ] | -
-Navigate through windows | - | [, ] | Left, Right | Shift + Cmd + [,]
-Scoll in pane | Shift + [, ] | Page Up, Page Down for quick nav. For per line is arrows Up, Down | Shift + Page Up, Page Down | Key Arrows
-Exit of of Scroll pane mode | - | press Enter | - | -
-Close a pane | :q | e | w | -
-Close a window | - | w | w | w
-Resize pane | Shft + hjkl | h, l | -
-Open Dev Tool | - | - | - | Opt + Cmd + i
