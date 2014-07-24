@@ -133,6 +133,7 @@ Open new window | - | t | t
 Navigate through panes | h,j,k,l | Left, Right | [, ]
 Navigate through windows | - | [, ] | Left, Right
 Scoll in pane | Shift + [, ] | Page Up, Page Down for quick nav. For per line is arrows Up, Down | Shift + Page Up, Page Down
+Exit of of Scroll pane mode | - | press Enter | -
 Close a pane | :q | e | w
 Close a window | - | w | w
 Resize pane | Shft + hjkl | h, l | -
