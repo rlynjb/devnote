@@ -128,9 +128,6 @@ npm list -g --depth=0
 Tasks | Vim | Tmux | Terminal
 --- | --- | --- | ---
 Key-Bind | Ctrl | Alt/Option + A | Cmd
---- | --- | --- | ---
 Open new pane | v | d | d
---- | --- | --- | ---
 Open new window | - | t | t
---- | --- | --- | ---
 Navigate through panes | h,j,k,l | Left, Right | Left, Right
