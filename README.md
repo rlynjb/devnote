@@ -16,7 +16,7 @@ ln -s ~/dotfiles/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecod
 
 4. Now, Install oh-my-zsh
 5. Remove pygmalion theme
-6. Copy and paste my pygmalion theme
+6. Copy and paste my pygmalion theme 
 7. vim up .zshrc file and change zsh theme = russell to pygmalion
 
 ### Setting up my VIM theme and configs
@@ -135,3 +135,4 @@ Navigate through windows | - | [, ] | Left, Right
 Scoll in pane | Shift + [, ] | Up, Down | Shift + Page Up, Page Down
 Close a pane | :q | e | w
 Close a window | - | w | w
+Resize pane | Shft + hjkl | h, l | -
