@@ -127,5 +127,5 @@ npm list -g --depth=0
 
 Tasks | Vim | Tmux | Terminal
 --- | --- | --- | ---
-Key-Bind | Ctrl | Alt/Option | Cmd
+Key-Bind | Ctrl | Alt/Option + A | Cmd
 
