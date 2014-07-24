@@ -132,3 +132,4 @@ Open new pane | v | d | d
 Open new window | - | t | t
 Navigate through panes | h,j,k,l | Left, Right | [, ]
 Navigate through windows | - | [, ] | Left, Right
+Scoll in pane | Shift + [, ] | Up, Down | Shift + Page Up, Page Down
