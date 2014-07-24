@@ -122,3 +122,10 @@ sudo npm install -g name_here
 npm list -g --depth=0
 ```
 * I use Yeoman.io to install web scaffoldings, very useful tool to get up and running with creating your web app!
+
+<hr>
+
+Tasks | Vim | Tmux | Terminal
+--- | --- | --- | ---
+Key-Bind | Ctrl | Alt/Option | Cmd
+
