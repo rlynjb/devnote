@@ -137,3 +137,4 @@ Exit of of Scroll pane mode | - | press Enter | - | -
 Close a pane | :q | e | w | -
 Close a window | - | w | w | w
 Resize pane | Shft + hjkl | h, l | -
+Open Dev Tool | - | - | - | Opt + Cmd + i
