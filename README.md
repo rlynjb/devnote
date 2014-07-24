@@ -131,3 +131,4 @@ Key-Bind | Ctrl | Alt/Option + A | Cmd
 Open new pane | v | d | d
 Open new window | - | t | t
 Navigate through panes | h,j,k,l | Left, Right | [, ]
+Navigate through windows | - | [, ] | Left, Right
