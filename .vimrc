@@ -10,7 +10,6 @@ set expandtab
 set smartindent
 set smarttab
 
-
 " ===========================================
 " ===========================================
 " Utilities
