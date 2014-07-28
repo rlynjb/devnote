@@ -34,6 +34,7 @@ Tasks | Vim | Tmux | iTerm | Chrome
 --- | --- | --- | --- | ---
 Key-Bind | Ctrl | Alt/Option + A | Cmd | Cmd
 Open new pane | v | d | d | -
+Split Pane vertically | - | Shift + " | - | -
 Open new window | - | t | t | t
 Navigate through panes | h,j,k,l | Left, Right | [, ] | -
 Navigate through windows | - | [, ] | Left, Right | Shift + Cmd + [,]
