@@ -10,11 +10,12 @@ set expandtab
 set smartindent
 set smarttab
 
+
 " ===========================================
 " ===========================================
 " Utilities
 " -------------------------------------------
-set nowrap
+"set nowrap
 set wildmenu
 
 
@@ -51,9 +52,9 @@ let g:indentLine_color_term = 239
 let g:indentLine_char = '┆'
 " vim supports js, just do this to use js syntax highlighting for json
 autocmd BufNewFile,BufRead *.json set ft=javascript
-" vim supports css, just do this to use css syntax highlighting for stylus
 autocmd BufNewFile,BufRead *.styl set ft=css
 autocmd BufNewFile,BufRead *.em set ft=emblem
+
 
 " ===========================================
 " ===========================================
@@ -83,5 +84,3 @@ nnoremap <S-l> <C-w>> +15
 " Enable Plugin
 " -------------------------------------------
 execute pathogen#infect()
-
-
