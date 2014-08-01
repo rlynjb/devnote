@@ -1,18 +1,5 @@
 " ===========================================
 " ===========================================
-" Indentation
-" -------------------------------------------
-" set tab width to 2
-set tabstop=2
-set shiftwidth=2
-set expandtab
-" enable auto indentation
-set smartindent
-set smarttab
-
-
-" ===========================================
-" ===========================================
 " Utilities
 " -------------------------------------------
 "set nowrap
@@ -77,6 +64,19 @@ nnoremap <S-h> <C-w>< -15
 nnoremap <S-j> <C-W>- -15
 nnoremap <S-k> <C-W>+ +15
 nnoremap <S-l> <C-w>> +15
+
+
+" ===========================================
+" ===========================================
+" Indentation
+" -------------------------------------------
+" set tab width to 2
+set tabstop=2
+set shiftwidth=2
+set expandtab
+" enable auto indentation
+set smartindent
+set smarttab
 
 
 " ===========================================
