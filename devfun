@@ -12,30 +12,14 @@ then
   tmux select-pane   -t devfun:0.0
   tmux send-keys     -t devfun:0.1 "cd" C-m
 
-  # set up Blog folder
-  tmux new-window    -t devfun:1 -n "blog"
-  tmux send-keys     -t devfun:1.0 "cd ~/blog" C-m
-  tmux split-window  -t devfun:1.0 -p 75 -h
-  tmux send-keys     -t devfun:1.1 "cd ~/blog" C-m
+  # set up dev environment
+  tmux new-window    -t devfun:1 -n "editor"
+  tmux send-keys     -t devfun:1.0 "cd ~/projects" C-m
+  tmux split-window  -t devfun:1.0 -p 70 -h
+  tmux send-keys     -t devfun:1.1 "cd ~/projects" C-m
   tmux send-keys     -t devfun:1.1 "vim" C-m
   tmux select-pane   -t devfun:1.0
-
-  # set up Emfun folder
-  tmux new-window    -t devfun:2 -n "emfun"
-  tmux send-keys     -t devfun:2.0 "cd ~/emfun" C-m
-  tmux split-window  -t devfun:2.0 -p 75 -h
-  tmux send-keys     -t devfun:2.1 "cd ~/emfun" C-m
-  tmux send-keys     -t devfun:2.1 "vim" C-m
-  tmux select-pane   -t devfun:2.0
- 
-  #set up Dotfiles folder
-  tmux new-window    -t devfun:3 -n "dotfiles"
-  tmux send-keys     -t devfun:3.0 "cd ~/dotfiles" C-m
-  tmux split-window  -t devfun:3.0 -p 75 -h
-  tmux send-keys     -t devfun:3.1 "cd ~/dotfiles" C-m
-  tmux send-keys     -t devfun:3.1 "vim" C-m
-  tmux select-pane   -t devfun:3.0
-
+  
   #set window to first when session is open
   tmux select-window -t devfun:0
 fi
