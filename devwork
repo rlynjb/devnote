@@ -1,0 +1,21 @@
+#!/bin/sh
+
+tmux has-session -t devwork
+if [ $? != 0 ]
+then
+  tmux new-session    -s devwork -d
+
+  #home window
+  tmux split-window   -t devwork:0 -h
+  tmux send-keys      -t devwork:0.0 "cd /www" C-m
+  tmux send-keys      -t devwork:0.1 "cd /www" C-m
+  tmux send-keys      -t devwork:0.1 "vim" C-m
+
+
+  # set up editor
+  tmux new-window     -t devwork:1
+
+
+
+fi
+tmux attach -t devwork
