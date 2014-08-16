@@ -3,19 +3,27 @@
 tmux has-session -t devwork
 if [ $? != 0 ]
 then
-  tmux new-session    -s devwork -d
-
-  #home window
-  tmux split-window   -t devwork:0 -h
-  tmux send-keys      -t devwork:0.0 "cd /www" C-m
-  tmux send-keys      -t devwork:0.1 "cd /www" C-m
-  tmux send-keys      -t devwork:0.1 "vim" C-m
-
+  tmux new-session   -s devwork -d
 
   # set up editor
-  tmux new-window     -t devwork:1
+  tmux split-window  -t devwork:0 -h -p 70
+  tmux split-window  -t devwork:0.0 -v
+  tmux send-keys     -t devwork:0.0 "cd /www/schooner" C-m
+  tmux send-keys     -t devwork:0.2 "cd /www/sloop" C-m
+  tmux send-keys     -t devwork:0.1 "cd /www/" C-m
+  tmux send-keys     -t devwork:0.1 "vim" C-m
 
-
-
+  # set up dev environment
+  tmux new-window    -t devwork:1
+  tmux split-window  -t devwork:1 -h -p 70
+  tmux send-keys     -t devwork:1.0 "cd /www/schooner" C-m
+  tmux split-window  -t devwork:1.1 -h
+  tmux send-keys     -t devwork:1.1 "cd /" C-m
+  tmux send-keys     -t devwork:1.1 "ls -al" C-m
+  tmux split-pane    -t devwork:1.2 -h
+  tmux send-keys     -t devwork:1.2 "cd /www/sloop" C-m
+  
+  #set window to first when session is open
+  tmux select-window -t devwork:0
 fi
 tmux attach -t devwork
