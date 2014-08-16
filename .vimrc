@@ -43,6 +43,7 @@ autocmd BufNewFile,BufRead *.styl set ft=css
 autocmd BufNewFile,BufRead *.em set ft=emblem
 
 
+
 " ===========================================
 " ===========================================
 " Smoother Navigation on Vim
@@ -82,5 +83,8 @@ set smarttab
 " ===========================================
 " ===========================================
 " Enable Plugin
+" git clone https://github.com/kchmck/vim-coffee-script.git
+" git clone https://github.com/Yggdroot/indentLine.git
+" git clone https://github.com/heartsentwined/vim-emblem.git
 " -------------------------------------------
 execute pathogen#infect()
