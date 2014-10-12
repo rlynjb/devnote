@@ -11,6 +11,7 @@ set wildmenu
 " Compiling File 
 " -------------------------------------------
 set binary " removes eof
+set encoding=utf-8
 " Remove trailing whitespace upon save
 function! <SID>StripTrailingWhitespaces()
     " Preparation: save last search, and cursor position.
@@ -23,7 +24,7 @@ function! <SID>StripTrailingWhitespaces()
     let @/=_s
     call cursor(l, c)
 endfunction
-autocmd BufWritePre *.rb,*.rake,*.coffee :call <SID>StripTrailingWhitespaces()
+autocmd BufWritePre *.rb,*.rake,*.coffee,*.html,*.styl :call <SID>StripTrailingWhitespaces()
 
 
 " ===========================================
@@ -36,12 +37,12 @@ syntax on
 filetype plugin indent on
 set nu " set number guide on left
 let g:indentLine_color_term = 239
-let g:indentLine_char = '┆'
+" let g:indentLine_char = '┆'
 " vim supports js, just do this to use js syntax highlighting for json
 autocmd BufNewFile,BufRead *.json set ft=javascript
 autocmd BufNewFile,BufRead *.styl set ft=css
 autocmd BufNewFile,BufRead *.em set ft=emblem
-
+autocmd BufNewFile,BufRead *.slim set ft=emblem
 
 
 " ===========================================
@@ -83,8 +84,5 @@ set smarttab
 " ===========================================
 " ===========================================
 " Enable Plugin
-" git clone https://github.com/kchmck/vim-coffee-script.git
-" git clone https://github.com/Yggdroot/indentLine.git
-" git clone https://github.com/heartsentwined/vim-emblem.git
 " -------------------------------------------
 execute pathogen#infect()
