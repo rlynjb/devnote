@@ -21,7 +21,7 @@ then
   # create new window
   tmux new-window    -t devfun:1
   # split new window and make left pane width smaller
-  tmux split-window  -t devfun:1 -h -p 70
+  tmux split-window  -t devfun:1 -h -p 65
   # on left pane, split pane vertically
   tmux split-window  -t devfun:1.0 -v
   # on left pane, set top pane to projects directory
