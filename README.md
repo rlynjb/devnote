@@ -64,26 +64,3 @@ press u // to toggle files to be staged or unstaged
 press q // to quit view
 press Shft + c // to commit and write commit msg
 ```
-
-<hr>
-
-### Setting up a local server with Node.js for Front-End Development
-#### Using NPM for Package Manager
-1. Install Home Brew first
-2. and then install Node.js using brew
-```
-brew install node
-```
-3. to view installed packages in Brew
-```
-brew list
-```
-4. Use NPM to install Package Managers, Task Runners, Compilers, Preprocessors, etc
-```
-// to install
-sudo npm install -g name_here
-
-// to view package list
-npm list -g --depth=0
-```
-* I use Yeoman.io to install web scaffoldings, very useful tool to get up and running with creating your web app!
