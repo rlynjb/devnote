@@ -8,12 +8,12 @@ then
   # set up editor
   tmux split-window  -t devwork:0 -h -p 70
   tmux split-window  -t devwork:0.0 -v
-  tmux send-keys     -t devwork:0.0 "cd /www/schooner" C-m
-  tmux send-keys     -t devwork:0.2 "cd /www/sloop" C-m
+  tmux send-keys     -t devwork:0.0 "cd /www/" C-m
+  tmux send-keys     -t devwork:0.2 "cd /www/" C-m
   tmux send-keys     -t devwork:0.1 "cd /www/" C-m
   tmux send-keys     -t devwork:0.1 "vim" C-m
 
-  # set up dev environment
+  # set up server and terminal environment
   tmux new-window    -t devwork:1
   tmux split-window  -t devwork:1 -h -p 70
   tmux send-keys     -t devwork:1.0 "cd /www/schooner" C-m
@@ -22,6 +22,11 @@ then
   tmux send-keys     -t devwork:1.1 "ls -al" C-m
   tmux split-pane    -t devwork:1.2 -h
   tmux send-keys     -t devwork:1.2 "cd /www/sloop" C-m
+
+  # set up build environemnt
+  tmux new-window    -t devwork:2
+  tmux split-window  -t devwork:2 -h -p 70
+  tmux send-keys     -t devwork:2.0 "cd /www/" C-m
   
   #set window to first when session is open
   tmux select-window -t devwork:0
