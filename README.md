@@ -14,7 +14,7 @@ rm  ~/Library/Preferences/com.googlecode.iterm2.plist
 ln -s ~/dotfiles/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 ```
 
-4. Now, Install oh-my-zsh
+4. Now, Install oh-my-zsh https://gist.github.com/tsabat/1498393
 5. Remove pygmalion theme
 6. Copy and paste my pygmalion theme 
 7. vim up .zshrc file and change zsh theme = russell to pygmalion
