@@ -96,6 +96,14 @@ let g:netrw_preview=1 " open previews vertically
 
 " ===========================================
 " ===========================================
+" Code Methods, Vars finder - TagBar
+" -------------------------------------------
+" https://github.com/majutsushi/tagbar
+nmap <F8> :TagbarToggle<CR>
+
+
+" ===========================================
+" ===========================================
 " Indentation
 " -------------------------------------------
 " set tab width to 2
