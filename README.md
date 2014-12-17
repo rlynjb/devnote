@@ -44,7 +44,8 @@ Close a pane | :q | e | w | -
 Close a window | - | w | w | w
 Resize pane | Shft + hjkl | h, l | -
 Open Dev Tool | - | - | - | Opt + Cmd + i
-
+Toggle Vim Explorer | E | - | - | -
+Maximize a pane toggle | - | z | - | -
 
 ##### Commandline 
 ```
