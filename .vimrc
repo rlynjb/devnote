@@ -43,6 +43,7 @@ autocmd BufNewFile,BufRead *.json set ft=javascript
 autocmd BufNewFile,BufRead *.styl set ft=css
 autocmd BufNewFile,BufRead *.em set ft=emblem
 autocmd BufNewFile,BufRead *.slim set ft=emblem
+autocmd BufNewFile,BufRead *.hbs set ft=html
 
 
 " ===========================================
