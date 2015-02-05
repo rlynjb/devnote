@@ -11,6 +11,7 @@ set nowritebackup
 " no swap files
 set noswapfile
 
+
 " ===========================================
 " ===========================================
 " Compiling File 
