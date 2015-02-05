@@ -4,7 +4,12 @@
 " -------------------------------------------
 "set nowrap
 set wildmenu
-
+" no backup files
+set nobackup
+" only in case you dont want a backup file while editing
+set nowritebackup
+" no swap files
+set noswapfile
 
 " ===========================================
 " ===========================================
