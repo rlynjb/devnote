@@ -10,6 +10,7 @@ set nobackup
 set nowritebackup
 " no swap files
 set noswapfile
+set autochdir
 
 
 " ===========================================
