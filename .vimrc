@@ -108,6 +108,8 @@ let g:netrw_preview=1 " open previews vertically
 " -------------------------------------------
 " https://github.com/majutsushi/tagbar
 nmap <F8> :TagbarToggle<CR>
+" easy prev tab nav instead of g Ctrl 
+map fr gT T
 
 
 " ===========================================
