@@ -73,7 +73,7 @@ nnoremap <S-l> <C-w>> +15
 " Hit enter in the file browser to open the selected
 " file with :vsplit to the right of the browser.
 "let g:netrw_browse_split = 4
-"let g:netrw_liststyle=3 " enable file navigation
+let g:netrw_liststyle=3 " enable file navigation
 "let g:netrw_winsize = 15 " set exact width for file navigation
 "let g:netrw_altv=1 " open files to the right
 "let g:netrw_preview=1 " open previews vertically
@@ -84,9 +84,9 @@ nnoremap <S-l> <C-w>> +15
 " Code Methods, Vars finder - TagBar
 " -------------------------------------------
 " https://github.com/majutsushi/tagbar
-nmap <F8> :TagbarToggle<CR>
+"nmap <F8> :TagbarToggle<CR>
 " easy prev tab nav instead of g Ctrl 
-map fr gT T
+"map fr gT T
 
 
 " ===========================================
