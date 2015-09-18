@@ -3,6 +3,13 @@ dotfiles
 
 This repo contains learnings and tools I've gathered from becoming a full fledged Front-End Developer
 
+##### Tools of trade
+- any terminal or if mac, use iTerm
+- Vim
+- tmux
+- zsh
+- oh-my-zsh
+
 ### Installing zsh and oh-my-zsh goodies
 1. ```apt-get install zsh```
 2. ```wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh```
