@@ -3,13 +3,15 @@ dotfiles
 
 This repo contains learnings and tools I've gathered from becoming a full fledged Front-End Developer
 
-### Setting up my development environment
-1. Install oh-my-zsh https://gist.github.com/tsabat/1498393
-2. vim up .zshrc file and change zsh theme = russell to pygmalion
+### Installing zsh and oh-my-zsh goodies
+1. ```apt-get install zsh```
+2. ```wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh```
+3. change shell to use zsh instead of bash ```chsh -s `which zsh````
+4. restart system ```sudo shutdown -r 0```
 
-### Setting up my VIM configs
-1. run ```zsh install.sh```
-this creates symlinks of .vim, .vimrc, .zshrc files to root directory
+### Setting up zsh theme and Vim configs
+1. vim up .zshrc file and change zsh theme = russell to pygmalion
+2. run ```zsh install.sh``` this creates symlinks of .vim, .vimrc, .zshrc files to root directory
 
 #### Keyboard Keys + Shortcuts
 Tasks | Vim | Tmux
