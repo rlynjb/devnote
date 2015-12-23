@@ -24,7 +24,7 @@ then
   tmux new-window    -t deven:2
   tmux split-window  -t deven:2 -h -p 70
   tmux send-keys     -t deven:2.0 "cd" C-m
-  tmux split-window  -t deven:2.1 -h
+  #tmux split-window  -t deven:2.1 -h
   tmux send-keys     -t deven:2.1 "cd" C-m
 
   #set window to first when session is open
