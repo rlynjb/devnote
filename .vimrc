@@ -20,18 +20,18 @@ set autochdir
 set binary " removes eof
 set encoding=utf-8
 " Remove trailing whitespace upon save
-function! <SID>StripTrailingWhitespaces()
+"function! <SID>StripTrailingWhitespaces()
     " Preparation: save last search, and cursor position.
-    let _s=@/
-    let l = line(".")
-    let c = col(".")
+    "let _s=@/
+    "let l = line(".")
+    "let c = col(".")
     " Do the business:
-    %s/\s\+$//e
+    "%s/\s\+$//e
     " Clean up: restore previous search history, and cursor position
-    let @/=_s
-    call cursor(l, c)
-endfunction
-autocmd BufWritePre *.rb,*.rake,*.coffee,*.html,*.styl :call <SID>StripTrailingWhitespaces()
+    "let @/=_s
+    "call cursor(l, c)
+"endfunction
+"autocmd BufWritePre *.rb,*.rake,*.coffee,*.html,*.styl :call <SID>StripTrailingWhitespaces()
 
 " ===========================================
 " Appearance and Highlighting
