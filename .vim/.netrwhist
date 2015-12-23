@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/www/sloop/app/templates'
-let g:netrw_dirhist_2='/www/sloop/app/templates/layout'
-let g:netrw_dirhist_3='/www/catboat'
-let g:netrw_dirhist_4='/www'
-let g:netrw_dirhist_5='/www/brig-names'
