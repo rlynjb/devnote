@@ -7,7 +7,7 @@ set wildmenu
 " no backup files
 set nobackup
 " only in case you dont want a backup file while editing
-set nowritebackup
+" set nowritebackup
 " no swap files
 set noswapfile
 set autochdir
@@ -17,8 +17,8 @@ set autochdir
 " ===========================================
 " Compiling File 
 " -------------------------------------------
-set binary " removes eof
-set encoding=utf-8
+" set binary " removes eof
+" set encoding=utf-8
 " Remove trailing whitespace upon save
 "function! <SID>StripTrailingWhitespaces()
     " Preparation: save last search, and cursor position.
@@ -38,7 +38,7 @@ set encoding=utf-8
 " -------------------------------------------
 " needed for syntax highlighting
 syntax on
-filetype plugin indent on
+" filetype plugin indent on
 set nu " set number guide on left
 let g:indentLine_color_term = 239
 " let g:indentLine_char = '┆'
@@ -49,6 +49,7 @@ autocmd BufNewFile,BufRead *.em set ft=emblem
 autocmd BufNewFile,BufRead *.slim set ft=emblem
 autocmd BufNewFile,BufRead *.hbs set ft=html
 autocmd BufNewFile,BufRead *.volt set ft=html
+autocmd BufNewFile,BufRead *.twig set ft=html
 
 
 " ===========================================
@@ -112,4 +113,4 @@ set smarttab
 " ===========================================
 " Enable Plugin
 " -------------------------------------------
-execute pathogen#infect()
+" execute pathogen#infect()
