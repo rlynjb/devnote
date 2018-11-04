@@ -1,6 +1,9 @@
 dotfiles
 =======================
 
+quick setup:
+set autoindent expandtab tabstop=2 softtabstop=2 shiftwidth=2 nu
+
 This repo contains learnings and tools I've gathered from becoming a full fledged Front-End Developer
 
 ##### Tools of trade
